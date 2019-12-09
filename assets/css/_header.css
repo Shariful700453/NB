@@ -1,0 +1,106 @@
+.header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+
+.header-inner{
+	padding-top: 24px;
+}
+
+.hdr-logo{
+	float: left;
+	width: 20%;
+}
+.hdr-menu{
+	float: right;
+	width: 80%;
+	text-align: right;
+	padding-top: 35px;
+}
+.hdr-logo a{
+	display: inline-block;
+	vertical-align: baseline;
+	max-width: 192px;
+}
+.hdr-logo a img{
+	width: 100%;
+}
+.hdr-main-menu,
+.hdr-cnt{
+	display: inline-block;
+}
+.hdr-main-menu ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.hdr-main-menu ul li{
+	display: inline-block;
+	padding-left: 19px;
+	padding-right: 19px;
+	position: relative;
+}
+.hdr-main-menu ul li:before,
+.hdr-main-menu ul li.current-menu:before{
+	content: "";
+	height: 8px;
+	width: 8px;
+	background: #fff;
+	position: absolute;
+	top: 130%;
+	left: 23px;
+	margin-top: -4px;
+	transform: translateX(-130%);
+	-ms-transform: translateX(-130%);
+	-webkit-transform: translateX(-130%);
+	visibility: hidden;
+}
+.hdr-main-menu ul li.current-menu:before{
+	visibility: visible;
+}
+.hdr-main-menu ul li:hover:before{
+	visibility: visible;
+}
+.hdr-main-menu ul li:first-child{
+	padding-left: 0;
+}
+.hdr-main-menu ul li:last-child{
+	padding-right: 0;
+}
+.hdr-main-menu ul li a{
+	display: inline-block;
+	font-size: 14px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	font-weight: 600;
+}
+
+
+
+
+
+.hdr-cnt{
+	padding-left: 192px;
+}
+.hdr-cnt a{
+	display: inline-block;
+	padding: 15px 30px 15px 58px;
+	color: #fff;
+	text-transform: uppercase;
+	background: transparent;
+	font-weight: normal;
+	letter-spacing: 0.04em;
+	border: 1px solid #fff;
+	background: url('../images/tel.png');
+	background-repeat: no-repeat;
+	background-position: 28px 15px;
+}
+.hdr-cnt a:hover{
+	background: #303E6B;
+	color: #fff;
+	border: 1px solid #303E6B;
+}
