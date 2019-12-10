@@ -1,0 +1,236 @@
+.fusce-section,
+.phasellus-section{
+	max-width: 930px;
+	margin: 0 auto;
+}
+.fs-inner{
+	padding-top: 95px;
+}
+.fs-title h1{
+	margin: 0;
+	color: #303E6B;
+	line-height: 70px;
+	letter-spacing: 0.04em;
+	font-weight: 700;
+	padding-bottom: 22px;
+}
+.fs-date span{
+	display: inline-block;
+	vertical-align: baseline;
+	font-size: 20px;
+	color: #94B1D7;
+	line-height: 30px;
+	text-transform: capitalize;
+	letter-spacing: 0.04em;
+	font-weight: 300;
+	padding-left: 130px;
+	position: relative;
+}
+.fs-date span:before{
+	content: "";
+	height: 6px;
+	width: 416px;
+	background: #F8F8F8;
+	position: absolute;
+	top: 50%;
+	left: -318px;
+	margin-top: -3px;
+	transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+}
+.fs-desc{
+	padding-top: 32px;
+	padding-bottom: 47px;
+}
+.fs-desc p{
+	margin: 0;
+	font-size: 15px;
+	color: #636363;
+	line-height: 28px;
+	letter-spacing: 0.02em;
+	font-weight: normal;
+}
+.fs-desc p:first-child{
+	padding-bottom: 35px;
+}
+
+.fs-img{
+	padding-top: 32px;
+	padding-bottom: 35px;
+}
+.fs-img img{
+	display: inline-block;
+	width: 100%;
+}
+.fs-ul{
+	padding-top: 50px;
+}
+.fsul-desc p{
+	margin: 0;
+	font-size: 15px;
+	color: #636363;
+	line-height: 28px;
+	letter-spacing: 0.02em;
+	font-weight: normal;
+	padding-bottom: 37px;
+}
+.fsul-item ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	padding-left: 30px;
+}
+.fsul-item ul li{
+	padding-left: 20px;
+	position: relative;
+}
+.fsul-item ul li:before{
+	content: "";
+	height: 5px;
+	width: 5px;
+	background: #4174AC;
+	position: absolute;
+	top: 25%;
+	left: 0;
+	margin-top: -2.5px;
+	transform: translateY(-25%);
+	-ms-transform: translateY(-25%);
+	-webkit-transform: translateY(-25%);
+}
+.fsul-item ul li p{
+	margin: 0;
+	padding-bottom: 22px;
+	font-size: 15px;
+	color: #636363;
+	letter-spacing: 0.02em;
+	font-weight: normal;
+}
+.fs-img-item ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.fs-img-item ul li{
+	float: left;
+	width: 50%;
+	padding-bottom: 25px;
+	padding-right: 12px;
+	padding-left: 12px;
+}
+.fs-img-item ul li:nth-child(2n+1){
+	padding-left: 0;
+}
+.fs-img-item ul li:nth-child(2n+2){
+	padding-right: 0;
+}
+.fs-img-item ul li img{
+	display: inline-block;
+	width: 100%;
+}
+
+
+
+.fs-btm-desc{
+	padding-top: 5px;
+	padding-bottom: 40px;
+}
+.fs-btm-desc p{
+	margin: 0;
+	font-size: 15px;
+	color: #636363;
+	line-height: 28px;
+	letter-spacing: 0.02em;
+	font-weight: normal;
+}
+.ps-title h3{
+	margin: 0;
+	color: #303E6B;
+	line-height: 70px;
+	letter-spacing: 0.04em;
+	font-weight: 700;
+	padding-bottom: 30px;
+}
+.ps-desc p{
+	margin: 0;
+	font-size: 15px;
+	color: #636363;
+	line-height: 28px;
+	letter-spacing: 0.02em
+	font-weight: normal;
+	padding-bottom: 45px;
+}
+
+.ps-item-img{
+	float: left;
+	width: 50%;
+	height: 475px;
+	background: url('../images/image-5.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.ps-item-desc{
+	float: right;
+	width: 50%;
+	padding-left: 22px;
+}
+.ps-item-desc p{
+	margin: 0;
+	font-size: 15px;
+	color: #636363;
+	line-height: 28px;
+	letter-spacing: 0.02em;
+	font-weight: normal;
+	padding-bottom: 35px;
+}
+.ps-item-desc p:last-child{
+	padding-bottom: 0;
+}
+.ps-btm-desc{
+	padding-top: 32px;
+	padding-bottom: 30px;
+}
+.ps-btm-desc p{
+	margin: 0;
+	font-size: 15px;
+	color: #636363;
+	line-height: 28px;
+	letter-spacing: 0.02em;
+	font-weight: normal;
+}
+
+.ps-blockquote{
+	background: url('../images/quote.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 65px;
+	padding-bottom: 68px;
+	padding-left: 58px;
+	padding-right: 58px;
+	margin-bottom: 50px;
+}
+.psb-title h3{
+	margin: 0;
+	font-size: 34px;
+	color:  #FFFFFF;
+	line-height: 40px;
+	letter-spacing: 0.02em;
+	font-weight: 200;
+	text-align: center;
+	padding-bottom: 42px;
+	padding-top: 77px;
+	background: url('../images/blockquote.png');
+	background-repeat: no-repeat;
+	background-position: 370px 0;
+}
+.psb-desc{
+	text-align: center;
+}
+.psb-desc span{
+	display: inline-block;
+	vertical-align: baseline;
+	color: #fff;
+	letter-spacing: 0.02em;
+	font-weight: 700;
+}
+
