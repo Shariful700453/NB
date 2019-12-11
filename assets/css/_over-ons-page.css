@@ -107,3 +107,280 @@
 	background: #94B1D7;
 	color: #fff;
 }
+
+.oo-process-section{
+	background: #303E6B;
+}
+.ops-inner ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.ops-inner ul li{
+	float: left;
+	width: 33.3333%;
+	padding-left: 40px;
+	padding-right: 40px;
+	position: relative;
+}
+.ops-inner ul li:before{
+	content: "";
+	height: 220px;
+	width: 2px;
+	background: rgba(248,248,248,0.1);
+	position: absolute;
+	top: 0%;
+	left: 0;
+	transform: translateX(-0%);
+	-ms-transform: translateX(-0%);
+	-webkit-transform: translateX(-0%);
+}
+.ops-inner ul li:first-child:before{
+	content: none;
+}
+.ops-inner{
+	padding-top: 95px;
+	padding-bottom: 95px;
+}
+.ops-item{
+	text-align: center;
+}
+.ops-item-icon{
+	padding-bottom: 20px;
+}
+.ops-item-icon img{
+	display: inline-block;
+}
+.ops-item-title{
+	height: 60px;
+}
+.ops-item-title h5{
+	margin: 0;
+	font-size: 20px;
+	color: #fff;
+	line-height: 28px;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	font-weight: 700;
+	padding-bottom: 10px;
+}
+.ops-item-desc p{
+	margin: 0;
+	font-size: 15px;
+	color: #fff;
+	line-height: 28px;
+	letter-spacing: 0.02em;
+	font-weight: normal;
+}
+
+
+.opsr-inner{
+	padding-top: 100px;
+}
+.ops-info{
+	float: left;
+	width: 50%;
+}
+.ops-img{
+	float: right;
+	width: 50%;
+	padding-left: 115px;
+}
+
+.ops-contact,
+.opmr-contact{
+	padding-bottom: 25px;
+	position: relative;
+}
+.ops-contact:before{
+	content: "";
+	height: 2px;
+	width: 1138px;
+	background: #F8F8F8;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.opmr-contact:before{
+	content: "";
+	height: 2px;
+	width: 1138px;
+	background: #F8F8F8;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.ops-cnt-tel,
+.ops-cnt-email,
+.opmr-tel,
+.opmr-email{
+	display: inline-block;
+}
+.ops-cnt-tel,
+.opmr-tel{
+	padding-right: 50px;
+}
+.ops-cnt-tel a,
+.opmr-tel a{
+	display: inline-block;
+	vertical-align: baseline;
+	font-size: 22px;
+	color: #94B1D7;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	font-weight: normal;
+	padding-left: 8px;
+}
+.ops-cnt-email,
+.opmr-email{
+	padding-left: 50px;
+	position: relative;
+}
+.ops-cnt-email:before,
+.opmr-email:before{
+	content: "";
+	height: 59px;
+	width: 2px;
+	background: #F8F8F8;
+	position: absolute;
+	bottom: -48px;
+	left: 0;
+}
+.ops-cnt-email a,
+.opmr-email a{
+	display: inline-block;
+	vertical-align: baseline;
+	font-size: 22px;
+	color: #94B1D7;
+	text-transform: lowercase;
+	letter-spacing: 0.04em;
+	font-weight: normal;
+}
+.ops-title,
+.opmr-title{
+	padding-top: 100px;
+	padding-bottom: 40px;
+}
+.ops-title h4,
+.opmr-title h4{
+	margin: 0;
+	color: #303E6B;
+	letter-spacing: 0.04em;
+	font-weight: 700;
+}
+.ops-desc p,
+.opmr-desc p{
+	margin: 0;
+	font-size: 15px;
+	color: #636363;
+	line-height: 28px;
+	letter-spacing: 0.02em;
+	font-weight: normal;
+	padding-bottom: 40px;
+}
+
+.opsr-item ul,
+.opmr-item ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	padding-left: 30px;
+}
+.opsr-item ul li,
+.opmr-item ul li{
+	padding-left: 20px;
+	position: relative;
+}
+.opsr-item ul li:before,
+.opmr-item ul li:before{
+	content: "";
+	height: 5px;
+	width: 5px;
+	background: #4174AC;
+	position: absolute;
+	top: 15%;
+	left: 0;
+}
+.opsr-item ul li p,
+.opmr-item ul li p{
+	margin: 0;
+	font-size: 15px;
+	color: #636363;
+	letter-spacing: 0.02em;
+	font-weight: normal;
+	padding-bottom: 22px;
+}
+.ops-link a,
+.opmr-link a{
+	display: inline-block;
+	vertical-align: baseline;
+	padding: 20px 65px;
+	font-size: 14px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	font-weight: 600;
+	background: #94B1D7;
+}
+.ops-img img{
+	display: inline-block;
+	width: 100%;
+	position: relative;
+	z-index: 6;
+}
+
+
+.op-mara-section{
+	padding-top: 100px;
+	padding-bottom: 95px;
+}
+.opmr-img{
+	float: left;
+	width: 50%;
+}
+.opmr-inft{
+	float: right;
+	width: 50%;
+}
+.opmr-img img{
+	display: inline-block;
+	position: relative;
+	z-index: 7;
+}
+
+
+
+.op-blockquote-section{
+	padding-bottom: 120px;
+}
+.opbs-inner{
+	background: url('../images/quote.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 120px 120px 135px 125px;
+}
+.opbs-title h3{
+	margin: 0;
+	font-size: 44px;
+	color:  #FFFFFF;
+	line-height: 40px;
+	letter-spacing: 0.02em;
+	font-weight: 200;
+	text-align: center;
+	padding-bottom: 42px;
+	padding-top: 72px;
+	background: url('../images/blockquote.png');
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+.opbs-desc{
+	text-align: center;
+}
+.opbs-desc span{
+	display: inline-block;
+	vertical-align: baseline;
+	color: #fff;
+	letter-spacing: 0.02em;
+	font-weight: 700;
+}
+
