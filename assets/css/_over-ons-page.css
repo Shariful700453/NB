@@ -77,7 +77,7 @@
 .StevenRym a{
 	display: inline-block;
 	vertical-align: baseline;
-	padding: 20px 55px;
+	padding: 16px 54px;
 	background: #94B1D7;
 	border: 1px solid #94B1D7;
 	font-size: 14px;
@@ -94,7 +94,7 @@
 .MaraRym a{
 	display: inline-block;
 	vertical-align: baseline;
-	padding: 18px 60px;
+	padding: 15px 59px;
 	background: transparent;
 	border: 2px solid #94B1D7;
 	font-size: 14px;
@@ -314,7 +314,7 @@
 .opmr-link a{
 	display: inline-block;
 	vertical-align: baseline;
-	padding: 20px 65px;
+	padding: 17px 65px;
 	font-size: 14px;
 	color: #fff;
 	text-transform: uppercase;
@@ -357,13 +357,13 @@
 	background: url('../images/quote.png');
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 120px 120px 135px 125px;
+	padding: 122px 120px 138px 125px;
 }
 .opbs-title h3{
 	margin: 0;
 	font-size: 44px;
 	color:  #FFFFFF;
-	line-height: 40px;
+	line-height: 50px;
 	letter-spacing: 0.02em;
 	font-weight: 200;
 	text-align: center;
