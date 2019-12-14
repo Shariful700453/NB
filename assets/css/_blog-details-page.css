@@ -1,8 +1,4 @@
-.fusce-section,
-.phasellus-section{
-	max-width: 930px;
-	margin: 0 auto;
-}
+
 .fs-inner{
 	padding-top: 95px;
 }
@@ -230,5 +226,82 @@
 	color: #fff;
 	letter-spacing: 0.02em;
 	font-weight: 700;
+}
+
+
+
+@media(max-width: 1199px){
+	.hide-md{
+		display: none!important;
+	}
+	.show-md{
+		display: block!important;
+	}
+	.hdr-logo {
+	    width: 15%;
+	}
+	.hdr-menu {
+		padding-left: 0;
+	    padding-top: 15px;
+	}
+	.hdr-main-menu ul li {
+	    padding-left: 12px;
+	    padding-right: 12px;
+	}
+	.hdr-cnt a{
+		padding: 10px 20px 10px 50px;
+		background-position: 18px 10px;
+	}
+	
+}
+
+
+@media(max-width: 991px){
+	.hide-sm{
+		display: none!important;
+	}
+	.show-sm{
+		display: block!important;
+	}
+	
+}
+
+
+@media(max-width: 767px){
+	.hide-xs{
+		display: none!important;
+	}
+	.show-xs{
+		display: block!important;
+	}
+	
+
+}
+
+
+
+@media(max-width: 639px){
+	.hdr-inr a.btn-left{
+		margin-left: 225px;
+	}
+	
+}
+
+
+
+@media(max-width: 575px){
+	
+}
+
+
+@media(max-width: 479px){
+	
+
+}
+
+
+
+@media(max-width: 359px){
+
 }
 
