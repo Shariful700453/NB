@@ -228,6 +228,10 @@
 	font-weight: 700;
 }
 
+.xs-menu-popup,
+.xs-menu-btn{
+	display: none;
+}
 
 
 @media(max-width: 1199px){
@@ -299,6 +303,98 @@
 	}
 	.show-sm{
 		display: block!important;
+	}
+	body{
+		position: relative;
+	}
+	.hdr-logo{
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+	.hdr-menu{
+		display: none;
+	}
+	.banner-dropdown-menu{
+		display: none;
+	}
+	.banner-section{
+		padding-top: 170px;
+	}
+	.banner-sct-title h2{
+		padding-bottom: 45px;
+	}
+
+	.xs-menu-btn{
+		background: #94B1D7;
+		height: 82px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: #fff;
+	}
+
+	.xs-menu-popup{
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: #4174ad;
+		color: #fff;
+		z-index: 99;
+		display: none;
+	}
+	.xs-menu-popup-inner{
+		position: relative;
+		padding-bottom: 80px;
+	}
+	.xs-menu-close-btn{
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: #364E7C;
+		height: 82px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: #fff;
+	}
+	.xs-menu-popup-logo{
+		text-align: center;
+		padding-top: 52px;
+	}
+	.xs-popup-menu{
+		text-align: center;
+		padding-top: 82px;
+		padding-bottom: 75px;
+	}
+	.xs-popup-menu ul{
+		list-style: none;
+		padding: 0; 
+		margin: 0;
+	}
+	.xs-popup-menu ul li{
+		padding-bottom: 42px;
+	}
+	.xs-popup-menu ul li:last-child{
+		padding-bottom: 0;
+		padding-top: 20px;
+	}
+	.xs-popup-menu ul li a{
+		display: inline-block;
+		font-size: 20px;
+		color: #fff;
+		text-transform: uppercase;
+		font-weight: 500;
+	}
+	.xs-popup-menu ul li a.tel{
+		padding: 10px 30px 10px 58px;
+		background: transparent;
+		border: 1px solid #fff;
+		background: url('../images/tel.png');
+		background-repeat: no-repeat;
+		background-position: 28px 12px;
 	}
 	
 }

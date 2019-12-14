@@ -1,0 +1,210 @@
+.property-section-info{
+	padding-top: 75px;
+	padding-bottom: 70px;
+}
+.prpt-sct-inner{
+	padding-left: 115px;
+	padding-right: 115px;
+}
+.property-sct{
+	float: left;
+	width: 59%;
+	padding-top: 95px;
+	padding-left: 40px;
+	padding-right: 75px;
+	position: relative;
+}
+.property-sct:before{
+	content: "";
+	height: 208px;
+	width: 2px;
+	background: #94B1D7;
+	position: absolute;
+	left: 0;
+	top: 85px;
+}
+.property-contant{
+	float: right;
+	width: 41%;
+	background: #F8F8F8;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+.property-sct-title h4{
+	margin: 0;
+	color: #303E6B;
+	line-height: 50px;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	font-weight: 700;
+	padding-bottom: 25px;
+}
+.property-sct-price span{
+	display: inline-block;
+	vertical-align: baseline;
+	font-size: 26px;
+	color: #636363;
+	letter-spacing: 0.02em;
+	font-weight: 200;
+	padding-bottom: 25px;
+}
+.property-sct-details{
+	padding-bottom: 45px;
+}
+.property-sct-details img{
+	display: inline-block;
+}
+.property-sct-details span{
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 30px;
+}
+.property-sct-desc p{
+	margin: 0;
+	font-size: 14px;
+	color: #636363;
+	letter-spacing: 0.02em;
+	line-height: 24px;
+	font-weight: normal;
+	padding-bottom: 32px;
+}
+.property-sct-link a{
+	display: inline-block;
+	font-size: 14px;
+	color: #94B1D7;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	font-weight: 600;
+}
+
+.pc-img{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	margin: 0 auto;
+}
+.pc-img img{
+	height: 110px;
+	width: 110px;
+	display: inline-block;
+	border-radius: 100%;
+}
+.pc-title h5{
+	display: inline-block;
+	margin: 0;
+	color: #303E6B;
+	letter-spacing: 0.04em;
+	font-weight: 700;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.pc-desc span{
+	display: inline-block;
+	vertical-align: baseline;
+	font-size: 14px;
+	color: #94B1D7;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	font-weight: 600;
+	padding-bottom: 35px;
+	position: relative;
+}
+.pc-desc span:before{
+	content: "";
+	height: 2px;
+	width: 344px;
+	background: #fff;
+	position: absolute;
+	bottom: 0;
+	left: -142px;
+}
+.pc-tel{
+	padding-top: 35px;
+	padding-bottom: 25px;
+}
+.pc-tel a{
+	display: inline-block;
+	vertical-align: baseline;
+	font-size: 22px;
+	color: #94B1D7;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	font-weight: 300;
+}
+.pc-mail{
+	padding-bottom: 20px;
+}
+.pc-mail a{
+	display: inline-block;
+	vertical-align: baseline;
+	font-size: 22px;
+	color: #94B1D7;
+	letter-spacing: 0.04em;
+	font-weight: 300;
+}
+.pc-link a{
+	display: inline-block;
+	vertical-align: baseline;
+	font-size: 14px;
+	color: #fff;
+	padding: 20px 64px;
+	background: #94B1D7;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	font-weight: 600;
+}
+
+
+.pgs-img{
+	height: 670px;
+	width: 1370px;
+	background: url('../images/image-4.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.pgs-slider-wrap{
+	position: relative;
+}
+.mainsliderarrow .leftarrow,
+.mainsliderarrow .rightarrow{
+	display: block;
+	height: 56px;
+	width: 56px;
+	cursor: pointer;
+	color: #D5D5D5;
+	text-align: center;
+	font-size: 60px;
+	line-height: 40px;
+	background: red;
+}
+.mainsliderarrow .leftarrow{
+	position: absolute;
+	right: 95px;
+	bottom: 25px;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	z-index: 5;
+	background-image: url(../images/pgs-left.png);
+	background-repeat: no-repeat;
+	background-size: 5px 5px;
+}
+.mainsliderarrow .leftarrow:hover{
+	background-position: -46px 0px;
+}
+.mainsliderarrow .rightarrow{
+	position: absolute;
+	right:-70px;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	z-index: 5;	
+	background-image: url(../images/pgs-right.png);
+	background-repeat: no-repeat;
+	background-size: 90px 31px;
+}
+.mainsliderarrow .rightarrow:hover{
+	background-position: -46px 0px;
+}
