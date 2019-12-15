@@ -282,6 +282,7 @@
 }
 
 .ftr-copywrite-design a{
+	display: inline-block;
 	margin: 0;
 	font-size: 15px;
 	color: #636363;
