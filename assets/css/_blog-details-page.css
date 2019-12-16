@@ -382,7 +382,7 @@
 	    line-height: 35px;
 	    padding-bottom: 35px;
 	    padding-top: 65px;
-	    background-position: 285px 0;
+	    background-position: top center;
 	}
 	.psb-desc span{
 		font-size: 15px;
@@ -514,6 +514,8 @@
 	    font-size: 18px !important;
 	    padding-bottom: 10px !important;
 	    padding-top: 10px !important;
+	    background-size: 25px 25px !important;
+	    padding-left: 50px !important;
 	}
 	.ftr-top-cnt-socail-media ul li:first-child {
 	    padding-left: 15px !important;
@@ -555,18 +557,21 @@
 		line-height: 20px !important;
 		padding-left: 35px !important;
 		padding-bottom: 30px !important;
+		background-size: 20px !important;
 	}
 	.ftr-cnt-plg a{
 		background-position: 0 5px !important;
+		font-size: 12px !important;
 	}
 	.ftr-cnt-phone a {
 		background-position: 0 0px !important;
 	}
 	.ftr-cnt-email a{
-		background-position: 0 -2px !important;
+		background-position: 0 0px !important;
 	}
 	.ftr-cnt-btw a{
-		background-position: 0 0px !important;
+		background-position: 0 5px !important;
+	    background-size: 25px 10px !important;
 	}
 
 	.ftr-copywrite-inner{
@@ -598,7 +603,219 @@
 	.show-xs{
 		display: block!important;
 	}
-	
+	.banner-sct-title h2 {
+	    padding-bottom: 35px;
+	    font-size: 30px;
+	}
+	.fs-inner {
+	    padding-top: 50px;
+	}
+	.fs-title h1 {
+	    font-size: 45px;
+	    line-height: 60px;
+	    padding-bottom: 17px;
+	}
+	.fs-date span{
+	    font-size: 15px;
+	    line-height: 30px;
+	    padding-left: 90px;
+	}
+	.fs-date span:before{
+		width: 350px;
+	}
+	.fs-desc {
+	    padding-top: 10px;
+	    padding-bottom: 25px;
+	}
+	.fs-desc p {
+	    font-size: 10px;
+	    line-height: 15px;
+	}
+	.fs-desc p:first-child {
+	    padding-bottom: 12px;
+	}
+	.fs-img {
+	    padding-top: 0px;
+	    padding-bottom: 0px;
+	}
+	.fs-ul {
+	    padding-top: 20px;
+	}
+	.fsul-desc p {
+	    font-size: 10px;
+	    line-height: 15px;
+	    padding-bottom: 18px;
+	}
+	.fsul-item ul {
+	    padding-left: 20px;
+	}
+	.fsul-item ul li:before{
+		top: 12%;
+	}
+	.fsul-item ul li p {
+	    padding-bottom: 12px;
+	    font-size: 10px;
+	}
+	.fsul-desc p {
+	    font-size: 10px;
+	    line-height: 15px;
+	    padding-bottom: 18px;
+	}
+	.fs-img-item ul li{
+		padding-left: 8px;
+		padding-right: 8px;
+		padding-bottom: 16px;
+	}
+	.fs-btm-desc {
+	    padding-bottom: 12px;
+	}
+	.fs-btm-desc p {
+	    font-size: 10px;
+	    line-height: 15px;
+	}
+	.ps-title h3 {
+	    font-size: 25px;
+	    padding-bottom: 15px;
+	    line-height: 35px;
+	}
+	.ps-desc p {
+	    font-size: 10px;
+	    line-height: 15px;
+	    padding-bottom: 20px;
+	}
+	.ps-item-img{
+		width: 100%;
+		height: 300px;
+	}
+	.ps-item-desc {
+	    width: 100%;
+	    padding-left: 0px;
+	    padding-top: 15px;
+	}
+	.ps-item-desc p {
+	    font-size: 10px;
+	    line-height: 15px;
+	    padding-bottom: 15px;
+	}
+	.ps-btm-desc {
+	    padding-top: 12px;
+	    padding-bottom: 17px;
+	}
+	.ps-btm-desc p {
+	    font-size: 10px;
+	    line-height: 15px;
+	}
+	.ps-blockquote {
+	    padding-top: 45px;
+	    padding-bottom: 48px;
+	    padding-left: 40px;
+	    padding-right: 40px;
+	    margin-bottom: 35px;
+	}
+	.psb-title h3 {
+	    font-size: 22px;
+	    line-height: 28px;
+	    padding-bottom: 25px;
+	    padding-top: 45px;
+	    background-position: top center;
+	    background-size: 30px;
+	}
+	.psb-desc span {
+	    font-size: 12px;
+	}
+
+
+	.footer-top{
+		padding-bottom: 50px !important;
+	}
+	.ftr-top-sct span.left {
+	    height: 111px !important;
+	}
+	.ftr-top-sct span.right {
+	    height: 78px !important;
+	    bottom: 50px !important;
+	}
+	.ftr-top-desc {
+	    padding-top: 30px !important;
+	    padding-bottom: 20px !important;
+	}
+	.ftr-top-desc-title h3 {
+	    font-size: 20px !important;
+	    padding-bottom: 12px;
+	}
+	.ftr-top-desc-link a{
+		font-size: 12px;
+	}
+	.ftr-top-contact {
+	    padding-top: 20px !important;
+	    padding-bottom: 20px !important;
+	}
+	.ftr-top-cnt-tel a {
+	    font-size: 15px !important;
+	    padding-bottom: 10px !important;
+	    padding-top: 10px !important;
+	    background-size: 15px 15px !important;
+	    padding-left: 35px !important;
+	}
+	.ftr-top-cnt-socail-media ul li:first-child {
+	    padding-left: 12px !important;
+	}
+	.ftr-top-cnt-socail-media ul li:nth-child(2) {
+	    padding-left: 12px !important;
+	}
+	.ftr-top-cnt-socail-media ul li {
+	    padding-left: 10px !important;
+	}
+	.ftr-top-cnt-socail-media ul li a {
+	    font-size: 15px !important;
+	}
+
+	.ftr-logo {
+	    padding-left: 0px !important;
+	    text-align: center !important;
+	    padding-bottom: 40px !important;
+	}
+	.ftr-main-menu-left {
+	    width: 100% !important;
+	    text-align: center !important;
+	    padding-bottom: 20px !important;
+	    border-bottom: 1px solid #E5E5E5 !important;
+	}
+	.ftr-main-menu-left ul li:before{
+		left: 50% !important;
+	}
+	.ftr-main-menu-right{
+		display: none!important;
+	}
+	.ftr-contact{
+		text-align: center !important;
+    	padding-top: 45px !important;
+	}
+	.ftr-main-menu-sct {
+	    padding-bottom: 30px !important;
+	}
+	.ftr-copywrite {
+	    width: 100% !important;
+	    text-align: center !important;
+	}
+	.ftr-copywrite-design {
+	    width: 100% !important;
+	    text-align: center !important;
+	}
+	.ftr-cnt-plg a,
+	.ftr-cnt-phone a{
+		padding-left: 0px !important;
+	    padding-bottom: 30px !important;
+	    padding-top: 45px !important;
+	    background-position: top center !important;
+	}
+	.ftr-cnt-email a,
+	.ftr-cnt-btw a{
+		padding-left: 0px !important;
+	    padding-bottom: 30px !important;
+	    padding-top: 32px !important;
+	    background-position: top center !important;
+	}
 
 }
 
@@ -608,13 +825,53 @@
 	.hdr-inr a.btn-left{
 		margin-left: 225px;
 	}
+	.fs-title h1 {
+	    font-size: 40px;
+	    line-height: 50px;
+	}
 	
 }
 
 
 
 @media(max-width: 575px){
-	
+	.ftr-top-sct span.left {
+	    height: 126px !important;
+	}
+	.ftr-top-sct span.right {
+	    height: 126px !important;
+	    bottom: 50px !important;
+	}
+	.ftr-top-desc {
+	    padding-top: 30px !important;
+	    padding-bottom: 20px !important;
+	    text-align: center;
+	}
+	.ftr-top-desc-title h3 {
+	    font-size: 20px !important;
+	    padding-bottom: 12px !important;
+	}
+	.ftr-top-desc-link a {
+		font-size: 10px !important;
+	}
+	.ftr-top-cnt-tel{
+	    width: 100% !important;
+	    text-align: center !important;
+	}
+	.ftr-top-cnt-tel a {
+	    padding-bottom: 10px !important;
+	    padding-top: 27px !important;
+	    padding-left: 0px !important;
+	    background-position: top center !important;
+	}
+	.ftr-top-cnt-socail-media {
+	    border-left: none !important;
+	    width: 100% !important;
+	    text-align: center !important;
+	}
+	.fsul-item ul {
+	    padding-left: 2px;
+	}
 }
 
 
