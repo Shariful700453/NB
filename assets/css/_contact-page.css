@@ -1,0 +1,233 @@
+.cp-contact-section{
+	padding-bottom: 110px;
+	padding-top: 62px;
+}
+.cpc-sct-inner{
+	padding: 55px 230px 82px 230px;
+	background: #F8F8F8;
+}
+.cpc-title h4{
+	margin: 0;
+	color: #303E6B;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	font-weight: 700;
+	padding-bottom: 20px;
+	text-align: center;
+}
+.cpc-desc p{
+	margin: 0;
+	font-size: 15px;
+	color: #636363;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+	text-align: center;
+	font-weight: normal;
+	padding-bottom: 50px;
+	border-bottom: 3px solid #FFFFFF;
+}
+.cpc-form-name{
+	padding-top: 48px;
+}
+.cpc-form-first-name,
+.cpc-form-tel{
+	float: left;
+}
+.cpc-form-lastname,
+.cpc-form-email{
+	float: right;
+}
+.cpc-form-first-name span,
+.cpc-form-lastname span,
+.cpc-form-tel span,
+.cpc-form-email span,
+.cpc-form-msg span{
+	display: inline-block;
+	vertical-align: baseline;
+	font-size: 14px;
+	color: #303E6B;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	font-weight: 600;
+	padding-bottom: 15px;
+	padding-top: 32px;
+}
+.cpc-form-first-name input[type=text],
+.cpc-form-lastname input[type=text],
+.cpc-form-tel input[type=text],
+.cpc-form-email input[type=text]{
+	display: inline-block;
+	height: 55px;
+	width: 420px;
+	padding-left: 24px;
+	font-size: 14px;
+	color: #C4C4C4;
+	text-transform: capitalize;
+	letter-spacing: 0.04em;
+	font-weight: normal;
+	border: 1px solid #E4E4E4;
+}
+.cpc-form-msg textarea{
+	display: inline-block;
+	height: 250px;
+	width: 880px;
+	font-size: 14px;
+	color: #C4C4C4;
+	text-transform: capitalize;
+	letter-spacing: 0.04em;
+	font-weight: normal;
+	border: 1px solid #E4E4E4;
+	resize: none;
+	padding-left: 24px;
+	padding-top: 22px;
+}
+.cpc-form-privacy{
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+.cpc-form-privacy p{
+	margin: 0;
+	font-size: 14px;
+	color: #000000;
+	letter-spacing: 0.04em;
+	text-align: center;
+	font-weight: normal;
+}
+.cpc-form-privacy p a{
+	display: inline-block;
+	color: #7095bf;
+}
+.cpc-form-send{
+	text-align: center;
+}
+.cpc-form-send a{
+	display: inline-block;
+	padding: 20px 58px;
+	background: #94B1D7;
+	font-size: 14px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	font-weight: 600;
+}
+
+
+.cps-googlemap{
+	padding-bottom: 140px;
+}
+.cp-googlemap-sct{
+	float: left;
+	width: 50%;
+}
+.cp-contact-sct{
+	float: right;
+	width: 50%;
+	background: #303E6B;
+	padding-left: 115px;
+	margin-top: 120px;
+	padding-top: 80px;
+	position: relative;
+}
+.cp-contact-sct:before{
+	content: "";
+	width: 1383px;
+	height: 45px;
+	background: #303E6B;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	-webkit-transform: translateY(100%);
+}
+.cp-googlemap-sct iframe{
+	max-width: 1020px;
+	width: 100%;
+	height: 850px;
+}
+
+
+.cpc-sct-img img{
+	height: 110px;
+	width: 110px;
+	display: inline-block;
+	border: 8px solid #94B1D7;
+	border-radius: 100%;
+}
+.cpc-sct-title h1{
+	margin: 0;
+	font-size: 64px;
+	color: #fff;
+	letter-spacing: 0.04em;
+	font-weight: normal;
+	padding-top: 38px;
+	padding-bottom: 65px;
+}
+.cpc-sct-tel a{
+	display: inline-block;
+	font-size: 30px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	font-weight: normal;
+	padding-left: 85px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	background: url('../images/tel.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 48px 48px;
+}
+.cpc-sct-mail{
+	padding-top: 50px;
+	padding-bottom: 85px;
+	position: relative;
+}
+.cpc-sct-mail:before{
+	content: "";
+	height: 2px;
+	width: 56px;
+	background: rgba(255,255,255,0.2);
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.cpc-sct-mail a{
+	display: inline-block;
+	font-size: 30px;
+	color: #fff;
+	letter-spacing: 0.04em;
+	font-weight: normal;
+	padding-left: 85px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	background: url('../images/email.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 50px 50px;
+}
+.cpc-sct-social-media{
+	padding-top: 40px;
+	padding-bottom: 62px;
+}
+.cpc-sct-social-media ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.cpc-sct-social-media ul li{
+	display: inline-block;
+	padding-right: 30px;
+}
+.cpc-sct-social-media ul li:first-child{
+	padding-right: 35px;
+}
+.cpc-sct-social-media ul li a{
+	display: inline-block;
+	color: #fff;
+	background: transparent;
+}
+.cpc-sct-social-media ul li a i{
+	display: inline-block;
+}
+
