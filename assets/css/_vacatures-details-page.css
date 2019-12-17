@@ -161,3 +161,16 @@
 	background-size: 22px 22px;
 	background-position: 835px center;
 }
+.vdc-form-send{
+	text-align: center;
+}
+.vdc-form-send a{
+	display: inline-block;
+	padding: 20px 58px;
+	background: #94B1D7;
+	font-size: 14px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	font-weight: 600;
+}
