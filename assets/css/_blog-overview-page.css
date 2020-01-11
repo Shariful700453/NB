@@ -113,3 +113,197 @@
 	color: #94B1D7;
 	font-weight: 700;
 }
+
+
+@media(max-width: 1199px){
+	.hide-md{
+		display: none!important;
+	}
+	.show-md{
+		display: block!important;
+	}
+	
+}
+
+
+@media(max-width: 991px){
+	.hide-sm{
+		display: none!important;
+	}
+	.show-sm{
+		display: block!important;
+	}
+	.bois-inner {
+	    padding-top: 65px;
+	}
+	.bois-desc p {
+	    font-size: 13px;
+	    line-height: 20px;
+	    padding-bottom: 50px;
+	}
+
+	.bois-item ul li{
+		float: left;
+		width: 50%;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+	.bois-item ul li:nth-child(3n+1){
+		clear: none;
+	}
+	.bois-item ul li:nth-child(3n+1){
+		padding-left: 10px;
+	}
+	.bois-item ul li:nth-child(3n+3){
+		padding-right: 10px;
+	}
+	.bois-item ul li:nth-child(2n+1){
+		padding-left: 0px;
+	}
+	.bois-item ul li:nth-child(2n+2){
+		padding-right: 0px;
+	}
+
+	.bois-item-cnt-title h6 {
+		font-size: 18px;
+	    line-height: 25px;
+	    padding-bottom: 15px;
+	    padding-top: 30px;
+	}
+	.bois-item-cnt-desc p {
+	    font-size: 12px;
+	    line-height: 20px;
+	    padding-bottom: 20px;
+	}
+	.bois-item-cnt-link {
+	    padding-bottom: 40px;
+	}
+	.bois-item-cnt-link a {
+	    font-size: 12px;
+	}
+	.bop-sct-inner {
+	    padding-top: 30px;
+	    padding-bottom: 30px;
+	}
+	.bois-item {
+	    padding-bottom: 50px;
+	}
+	
+	
+}
+
+
+@media(max-width: 767px){
+	.hide-xs{
+		display: none!important;
+	}
+	.show-xs{
+		display: block!important;
+	}
+	.bois-item ul li{
+		width: 100%;
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.bois-item-img img {
+	    width: 100%;
+	}
+	.bois-inner {
+	    padding-top: 50px;
+	}
+	.bois-title h4 {
+		font-size: 25px;
+	    padding-bottom: 15px;
+	}
+	.bois-desc p {
+	    font-size: 10px;
+	    line-height: 15px;
+	    padding-bottom: 30px;
+	}
+	.bois-item-cnt-title h6 {
+	    font-size: 15px;
+	    line-height: 22px;
+	    padding-bottom: 10px;
+	    padding-top: 20px;
+	}
+	.bois-item-cnt-desc p {
+	    font-size: 12px;
+	    line-height: 18px;
+	    padding-bottom: 20px;
+	}
+	.bois-item-cnt-link {
+	    padding-bottom: 30px;
+	}
+
+}
+
+
+
+@media(max-width: 639px){
+	.hdr-inr a.btn-left{
+		margin-left: 225px;
+	}
+	
+}
+
+
+
+@media(max-width: 575px){
+	.bois-desc p {
+	    font-size: 9px;
+	    line-height: 15px;
+	    padding-bottom: 30px;
+	}
+	.bois-item-cnt-title h6 {
+	    font-size: 12px;
+	    line-height: 22px;
+	    padding-bottom: 10px;
+	    padding-top: 20px;
+	}
+	.bois-item-cnt-desc p {
+	    font-size: 10px;
+	    line-height: 15px;
+	    padding-bottom: 10px;
+	}
+	.bois-item-cnt-link {
+	    padding-bottom: 30px;
+	}
+}
+
+
+@media(max-width: 479px){
+	.bois-inner {
+	    padding-top: 35px;
+	}
+	.bois-title h4 {
+	    font-size: 20px;
+	    padding-bottom: 15px;
+	}
+	.bois-desc p {
+	    font-size: 9px;
+	    line-height: 15px;
+	    padding-bottom: 30px;
+	}
+	.bois-item-img img {
+	    min-height: 260px;
+	}
+	.bois-item-cnt-title h6 {
+	    font-size: 12px;
+	    line-height: 18px;
+	    padding-bottom: 15px;
+	    padding-top: 20px;
+	}
+	.bois-item-cnt-desc p {
+	    font-size: 10px;
+	    line-height: 15px;
+	    padding-bottom: 15px;
+	}
+	
+
+}
+
+
+
+@media(max-width: 359px){
+
+}

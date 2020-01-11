@@ -16,6 +16,21 @@ $('.xs-menu-close-btn').on('click', function(){
 Responsive on 767px
 */
 var windowWidth = $(window).width();
+
+var container = $(".container-sm").width();
+
+var width = windowWidth - container;
+
+var containerwidth = width / 2;
+var imgwidth = containerwidth + 220;
+
+$(".fs-img-left").css({
+  width: imgwidth,
+  left: -containerwidth
+});
+
+
+
 // if (windowWidth <= 767) {
 
   $('.toggle-btn').on('click', function(){

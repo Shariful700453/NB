@@ -49,14 +49,27 @@
 .fs-desc p:first-child{
 	padding-bottom: 25px;
 }
-
 .fs-img{
+	position: relative;
+}
+
+.fs-img-inner{
 	padding-top: 32px;
-	padding-bottom: 35px;
+	padding-bottom: 36px;
+	z-index: 2;
+	position: relative;
 }
 .fs-img img{
 	display: inline-block;
 	width: 100%;
+}
+.fs-img-left{
+	background: #f8f8f8;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
 }
 .fs-ul{
 	padding-top: 50px;
@@ -234,6 +247,98 @@
 }
 
 
+.bdp-table-section{
+	margin-bottom: 70px;
+}
+
+
+.bdp-table{
+	border: 6px solid #f8f8f8;
+	width: 100%;
+}
+thead{
+	border-bottom: 3px solid #f8f8f8;
+}
+
+.bdp-table thead tr th{
+	padding-top: 44px;
+	padding-bottom: 38px;
+	padding-left: 30px;
+	font-size: 15px;
+	color: #636363;
+	text-transform: uppercase;
+	letter-spacing: 0.02em;
+	font-weight: 600;
+	position: relative;
+}
+.bdp-table thead tr th:after{
+	content: "";
+	height: 33.5px;
+	width: 3px;
+	background: #f8f8f8;
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+}
+.bdp-table thead tr th:last-child:after{
+	content: none;
+}
+
+.bdp-table thead tr th:first-child{
+	padding-right: 65px;
+}
+.bdp-table thead tr th:nth-child(2){
+	padding-right: 205px;
+}
+.bdp-table thead tr th:last-child{
+	padding-right: 55px;
+}
+
+.bdp-table tbody tr td span{
+	display: inline-block;
+	padding-left: 30px;
+	padding-bottom: 14px;
+	padding-top: 14px;
+	font-size: 15px;
+	color: #636363;
+	letter-spacing: 0.02em;
+	font-weight: normal;
+	position: relative;
+}
+.bdp-table tbody tr td span:before{
+	content: "";
+	height: 60px;
+	width: 3px;
+	background: #f8f8f8;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: translateX(-50%);
+}
+.bdp-table tbody tr td:first-child span:before{
+	content: none;
+}
+.bdp-table tbody tr:first-child td span{
+	padding-top: 20px;
+}
+.bdp-table tbody tr:last-child td span{
+	padding-bottom: 27px;
+}
+
+
+
+.bdp-table tbody tr:last-child td{
+	padding-bottom: 25px;
+}
+.bdp-table tbody tr:first-child td{
+	padding-top: 25px;
+}
+
+
+
+
+
 @media(max-width: 1199px){
 	.hide-md{
 		display: none!important;
@@ -399,10 +504,14 @@
 		align-items: center;
 		justify-content: center;
 		color: #fff;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
 	}
 
 	.xs-menu-popup{
-		position: absolute;
+		position: fixed;
 		left: 0;
 		right: 0;
 		bottom: 0;
