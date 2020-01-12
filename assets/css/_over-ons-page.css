@@ -231,6 +231,13 @@
 	font-weight: normal;
 	padding-left: 8px;
 }
+.ops-cnt-tel a:hover,
+.opmr-tel a:hover,
+.ops-cnt-email a:hover,
+.opmr-email a:hover{
+	color: #303E6B;
+	text-decoration: underline;
+}
 .ops-cnt-email,
 .opmr-email{
 	padding-left: 50px;
@@ -256,6 +263,7 @@
 	letter-spacing: 0.04em;
 	font-weight: normal;
 }
+
 .ops-title,
 .opmr-title{
 	padding-top: 100px;
@@ -322,6 +330,10 @@
 	font-weight: 600;
 	background: #94B1D7;
 }
+.ops-link a:hover,
+.opmr-link a:hover{
+	background: #303E6B;
+}
 .ops-img img{
 	display: inline-block;
 	width: 100%;
@@ -361,7 +373,7 @@
 }
 .opbs-title h3{
 	margin: 0;
-	font-size: 44px;
+	font-size: 43px;
 	color:  #FFFFFF;
 	line-height: 50px;
 	letter-spacing: 0.02em;
@@ -383,6 +395,58 @@
 	letter-spacing: 0.02em;
 	font-weight: 700;
 }
+
+
+.opbs-slider-wrap{
+	position: relative;
+}
+.opbssliderarrow .leftarrow,
+.opbssliderarrow .rightarrow {
+	display: block;
+	height: 40px;
+	width: 40px;
+	cursor: pointer;
+	color: #D5D5D5;
+	text-align: center;
+	font-size: 60px;
+	line-height: 40px;
+}
+.opbssliderarrow .leftarrow{
+	position: absolute;
+	left:50px;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	z-index: 5;
+	background-image: url(../images/right-arrow.png);
+	background-repeat: no-repeat;
+	background-size: 19px 33px;
+}
+
+.opbssliderarrow .rightarrow{
+	position: absolute;
+	right:50px;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	z-index: 5;	
+	background-image: url(../images/left-arrow.png);
+	background-repeat: no-repeat;
+	background-size: 19px 33px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media(max-width: 1199px){

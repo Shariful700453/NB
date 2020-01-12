@@ -104,6 +104,42 @@ $('[data-fancybox="gallery"]').fancybox({
   ],
 });
 
+$("#form").on('submit', function(e){
+    e.preventDefault();
+    var firstname = $('input[name="firstname"]').val();
+    if(firstname.length === 0){
+      $('input[name="firstname"]').parent().addClass('haserror');
+    }  
+    var lastname = $('input[name="lastname"]').val();
+    if(lastname.length === 0){
+      $('input[name="lastname"]').parent().addClass('haserror');
+    }
+    var email = $('input[name="email"]').val();
+    if(email.length === 0){
+      $('input[name="email"]').parent().addClass('haserror');
+    }
+    var telephone = $('input[name="telephone"]').val();
+    if(telephone.length === 0){
+      $('input[name="telephone"]').parent().addClass('haserror');
+    }
+  });
+  
+
+  if( $('.opbs-slider').length ){
+    $('.opbs-slider').slick({
+      pauseOnHover: false,
+      dots: false,
+      infinite: true,
+      arrows: true,
+      speed: 300,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      prevArrow: $('.opbssliderarrow .leftarrow'),
+      nextArrow: $('.opbssliderarrow .rightarrow'),
+    });
+}
+
+
 
 
 

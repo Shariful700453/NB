@@ -97,10 +97,14 @@
 	display: inline-block;
 	color: #7095bf;
 }
+.cpc-form-privacy p a:hover{
+	color: #303E6B;
+	text-decoration: underline;
+}
 .cpc-form-send{
 	text-align: center;
 }
-.cpc-form-send a{
+.cpc-form-send button{
 	display: inline-block;
 	padding: 20px 58px;
 	background: #94B1D7;
@@ -110,7 +114,9 @@
 	letter-spacing: 0.04em;
 	font-weight: 600;
 }
-
+.cpc-form-send button:hover{
+	background: #98bbea;
+}
 
 .cps-googlemap{
 	padding-bottom: 140px;
@@ -178,6 +184,11 @@
 	background-position: left center;
 	background-size: 48px 48px;
 }
+.cpc-sct-tel a:hover,
+.cpc-sct-mail a:hover{
+	color: #94B1D7;
+	text-decoration: underline;
+}
 .cpc-sct-mail{
 	padding-top: 50px;
 	padding-bottom: 85px;
@@ -227,7 +238,24 @@
 	color: #fff;
 	background: transparent;
 }
+.cpc-sct-social-media ul li a:hover{
+	color: #94B1D7;
+}
 .cpc-sct-social-media ul li a i{
 	display: inline-block;
+}
+
+
+
+.errormgs{
+	color: #DD4200;
+	font-size: 14px;
+	margin-top: 10px;
+	letter-spacing: 0.04em;
+	font-weight: normal;
+	display: none;
+}
+.haserror .errormgs{
+	display: block;
 }
 

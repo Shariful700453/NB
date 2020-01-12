@@ -24,6 +24,10 @@
 	font-weight: 600;
 	background: #94B1D7;
 }
+.vd-job-offer-apply a:hover{
+	background: #303E6B;
+}
+
 .vd-job-offer-desc{
 	padding-top: 40px;
 	padding-bottom: 52px;
@@ -73,6 +77,9 @@
 	display: inline-block;
 	background: transparent;
 	color: #636363;
+}
+.vd-job-offer-gellery-social-media ul li a:hover{
+	color: #fff;
 }
 .vd-job-offer-gellery-social-media ul li a i{
 	display: inline-block;
@@ -173,4 +180,7 @@
 	text-transform: uppercase;
 	letter-spacing: 0.04em;
 	font-weight: 600;
+}
+.vdc-form-send a:hover{
+	background: #98bbea;
 }

@@ -44,6 +44,7 @@
 }
 .bois-item-img{
 	position: relative;
+	overflow: hidden;
 }
 
 .bois-item-img img{

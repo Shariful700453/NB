@@ -95,36 +95,40 @@
             <p>Donec in porttitor mi. In sed arcu ultricies, convallis eros eget, porttitor eros. Vivamus pharetra odio ac sapien<br> pretium sagittis. In sed lectus diam. Aliquam metus metus, ornare eget elementum vitae, scelerisque sit amet mi.<br> Donec vitae fermentum leo.</p>
           </div>
           <div class="cpc-form">
-            <form class="form">
+            <form class="form" id="form">
               <div class="cpc-form-name clearfix">
                 <div class="cpc-form-first-name">
                   <span>Naam *</span><br>
-                  <input type="text" name="firstname" value="Naam">
+                  <input type="text" name="firstname" placeholder="Naam">
+                  <p class="errormgs">Dit is geen correct naam</p>
                 </div>
                 <div class="cpc-form-lastname">
                   <span>AchterNaam *</span><br>
-                  <input type="text" name="lastname" value="Achteraam">
+                  <input type="text" name="lastname" placeholder="Achteraam">
+                  <p class="errormgs">Dit is geen correct achterNaam</p>
                 </div>
               </div>
               <div class="form-mail clearfix">
                 <div class="cpc-form-tel">
                   <span>Telefoon  *</span><br>
-                  <input type="text" name="telephone" value="Telefoon">
+                  <input type="text" name="telephone" placeholder="Telefoon">
+                  <p class="errormgs">Dit is geen correct telefoon</p>
                 </div>
                 <div class="cpc-form-email">
                   <span>E-mailadres *</span><br>
-                  <input type="text" name="email" value="E-mailadres">
+                  <input type="text" name="email" placeholder="E-mailadres">
+                  <p class="errormgs">Dit is geen correct e-mailadres</p>
                 </div>
               </div>
               <div class="cpc-form-msg">
                 <span>Bericht</span><br>
-                <textarea>Bericht</textarea>
+                <textarea placeholder="Bericht"></textarea>
               </div>
               <div class="cpc-form-privacy">
                 <p>Wij respecteren uw <a href="#">privacy</a>. Uw gegevens worden altijd vertrouwelijk behandeld.</p>
               </div>
               <div class="cpc-form-send">
-                <a href="#">verzenden</a>
+                <button type="submit">verzenden</button>
               </div>
             </form>
           </div>
@@ -206,7 +210,7 @@
                 <a href="#">info@nb-projects.be</a>
               </div>
               <div class="ftr-cnt-btw">
-                <a href="#">BE0547874905</a>
+                <span>BE0547874905</span>
               </div>
             </div>
           </div>
@@ -231,7 +235,7 @@
                 </div>
               </div>
               <div class="ftr-copywrite-design">
-                <a href="#">webdesign by dhakacoders</a>
+                <span>webdesign by<a href="#">dhakacoders</a></span>
               </div>
             </div>
           </div>
