@@ -38,6 +38,12 @@
 	background: url('../images/ftr-right-arrow.png');
 	background-repeat: no-repeat;
 	background-position: right center;
+	transition: all 0.5s;
+}
+.ftr-top-desc-link a:hover{
+	color: #303E6B;
+	text-decoration: underline;
+	padding-right: 50px;
 }
 .ftr-top-cnt-tel,
 .ftr-top-cnt-socail-media{
@@ -63,6 +69,9 @@
 	background: url('../images/telephone.png');
 	background-repeat: no-repeat;
 	background-position: left center;
+}
+.ftr-top-cnt-tel a:hover{
+	color: #94B1D7;
 }
 .ftr-top-cnt-socail-media{
 	border-left: 2px solid rgba(255,255,255,0.2);
@@ -91,7 +100,9 @@
 	font-size: 40px;
 	color: #fff;
 }
-
+.ftr-top-cnt-socail-media ul li a:hover{
+	color: #94B1D7;
+}
 
 
 .ftr-logo{
@@ -132,7 +143,7 @@
 .ftr-main-menu-right ul li:before{
 	content: "";
 	height: 1px;
-	width: 5px;
+	width: 15px;
 	background: #E5E5E5;
 	position: absolute;
 	top: 100%;
@@ -158,6 +169,13 @@
 	text-transform: uppercase;
 	letter-spacing: 0.04em;
 	font-weight: 600;
+}
+.ftr-main-menu-left ul li a:hover,
+.ftr-main-menu-right ul li a:hover,
+.ftr-cnt-plg a:hover,
+.ftr-cnt-phone a:hover,
+.ftr-cnt-email a:hover{
+	color: #94B1D7;
 }
 
 
@@ -206,7 +224,7 @@
 	background-position: 0 4px;
 	padding-bottom: 45px;
 }
-.ftr-cnt-btw a{
+.ftr-cnt-btw span{
 	display: inline-block;
 	vertical-align: baseline;
 	font-size: 22px;
@@ -238,6 +256,9 @@
 .ftr-copywrite-menu{
 	display: inline-block;
 }
+.ftr-copywrite-desc{
+	padding-right: 24px;
+}
 .ftr-copywrite-desc p{
 	margin: 0;
 	font-size: 15px;
@@ -252,7 +273,8 @@
 }
 .ftr-copywrite-menu ul li{
 	display: inline-block;
-	padding-left: 56px;
+	padding-left: 26px;
+	padding-right: 26px;
 	padding-top: 6px;
 	padding-bottom: 6px;
 	position: relative;
@@ -264,15 +286,13 @@
 	background: #E5E5E5;
 	position: absolute;
 	top: 100%;
-	left: -10px;
+	left: 0px;
 	margin-top: -7.5px;
 	transform: translateY(-100%);
 	-ms-transform: translateY(-100%);
 	-webkit-transform: translateY(-100%);
 }
-.ftr-copywrite-menu ul li:first-child{
-	padding-left: 50px;
-}
+
 .ftr-copywrite-menu ul li a{
 	display: inline-block;
 	font-size: 15px;
@@ -281,7 +301,7 @@
 	font-weight: normal;
 }
 
-.ftr-copywrite-design a{
+.ftr-copywrite-design span{
 	display: inline-block;
 	margin: 0;
 	font-size: 15px;
@@ -289,6 +309,15 @@
 	letter-spacing: 0.02em;
 	font-weight: normal;
 	padding-top: 5px;
+}
+.ftr-copywrite-design span a{
+	display: inline-block;
+	color: #636363;
+	padding-left: 5px;
+}
+.ftr-copywrite-design span a:hover,
+.ftr-copywrite-menu ul li a:hover{
+	color: #94B1D7;
 }
 .ftr-top-sct{
 	position: relative;

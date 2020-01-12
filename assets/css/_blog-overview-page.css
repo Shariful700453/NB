@@ -42,16 +42,31 @@
 .bois-item ul li:nth-child(3n+3){
 	padding-right: 0;
 }
+.bois-item-img{
+	position: relative;
+}
+
 .bois-item-img img{
 	display: inline-block;
 	min-height: 360px;
 	height: 100%;
+	transform: scale(1);
+	-webkit-transform: scale(1);
+	transition: 0.5s ease-in-out;
+	-webkit-transition: 0.5s ease-in-out;
 }
+.bois-item-img img:hover{
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+}
+
+
 .bois-item-cnt{
 	padding-left: 40px;
 }
 .bois-item-cnt-inner{
 	padding-left: 40px;
+	padding-bottom: 50px;
 	position: relative;
 }
 .bois-item-cnt-inner:before{
@@ -62,6 +77,9 @@
 	position: absolute;
 	top: -72px;
 	left: 0;
+}
+.bois-item-inner:hover .bois-item-cnt-inner:before{
+	background: #94B1D7;
 }
 .bois-item-cnt-title h6{
 	margin: 0;
@@ -81,9 +99,7 @@
 	font-weight: normal;
 	padding-bottom: 30px;
 }
-.bois-item-cnt-link{
-	padding-bottom: 50px;
-}
+
 .bois-item-cnt-link a{
 	display: inline-block;
 	font-size: 14px;
@@ -91,6 +107,10 @@
 	text-transform: uppercase;
 	letter-spacing: 0.04em;
 	font-weight: 600;
+}
+.bois-item-cnt-link a:hover{
+	color: #303E6B;
+	text-decoration: underline;
 }
 
 .bop-section{
@@ -104,7 +124,7 @@
 .bop-sct-desc{
 	text-align: center;
 }
-.bop-sct-desc span{
+.bop-sct-desc a{
 	display: inline-block;
 	vertical-align: baseline;
 	padding-right: 15px;
@@ -112,6 +132,13 @@
 	font-size: 15px;
 	color: #94B1D7;
 	font-weight: 700;
+}
+
+.active{
+	color: #303E6B !important;
+}
+.bop-sct-desc a:hover{
+	color: #303E6B;
 }
 
 

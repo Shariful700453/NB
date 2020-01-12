@@ -53,3 +53,7 @@
 	letter-spacing: 0.04em;
 	font-weight: 600;
 }
+.banner-dropdown-menu ul li:hover a{
+	color: #94B1D7;
+	text-decoration: underline;
+}
