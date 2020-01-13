@@ -1,5 +1,5 @@
 
-.oa-sct-inner{
+.over-about-section{
 	padding-top: 120px;
 	padding-bottom: 128px;
 }
@@ -174,7 +174,7 @@
 }
 
 
-.opsr-inner{
+.op-steven-section{
 	padding-top: 100px;
 }
 .ops-info{
@@ -297,6 +297,11 @@
 .opsr-item ul li,
 .opmr-item ul li{
 	padding-left: 20px;
+	font-size: 15px;
+	color: #636363;
+	letter-spacing: 0.02em;
+	font-weight: normal;
+	padding-bottom: 22px;
 	position: relative;
 }
 .opsr-item ul li:before,
@@ -309,15 +314,7 @@
 	top: 15%;
 	left: 0;
 }
-.opsr-item ul li p,
-.opmr-item ul li p{
-	margin: 0;
-	font-size: 15px;
-	color: #636363;
-	letter-spacing: 0.02em;
-	font-weight: normal;
-	padding-bottom: 22px;
-}
+
 .ops-link a,
 .opmr-link a{
 	display: inline-block;

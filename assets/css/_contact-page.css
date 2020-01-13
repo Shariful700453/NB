@@ -159,6 +159,10 @@
 	display: inline-block;
 	border: 8px solid #94B1D7;
 	border-radius: 100%;
+	margin-right: 45px;
+}
+.cpc-sct-img img:last-child{
+	border: none;
 }
 .cpc-sct-title h1{
 	margin: 0;

@@ -77,6 +77,10 @@
 	letter-spacing: 0.04em;
 	font-weight: 600;
 }
+.property-sct-link a:hover{
+	color: #303E6B;
+	text-decoration: underline;
+}
 
 .pc-img{
 	background-repeat: no-repeat;
@@ -132,6 +136,10 @@
 	letter-spacing: 0.04em;
 	font-weight: 300;
 }
+.pc-tel a:hover,
+.pc-mail a:hover{
+	color: #303E6B;
+}
 .pc-mail{
 	padding-bottom: 20px;
 }
@@ -153,6 +161,10 @@
 	text-transform: uppercase;
 	letter-spacing: 0.04em;
 	font-weight: 600;
+}
+.pc-link a:hover,
+.pdpd-link a:hover{
+	background: #303E6B;
 }
 
 
@@ -255,6 +267,7 @@
 }
 .pdpd-desc{
 	padding-top: 35px;
+	padding-bottom: 42px;
 }
 .pdpd-desc p{
 	margin: 0;
@@ -263,7 +276,7 @@
 	line-height: 28px;
 	letter-spacing: 0.02em;
 	font-weight: normal;
-	padding-bottom: 42px;
+
 }
 .pdpd-item{
 	padding-bottom: 20px;
@@ -459,6 +472,10 @@
 	display: inline-block;
 	color: #7095bf;
 }
+.pdpc-form-privacy p a:hover{
+	color: #303E6B;
+	text-decoration: underline;
+}
 .pdpc-form-send{
 	text-align: center;
 }
@@ -471,4 +488,7 @@
 	text-transform: uppercase;
 	letter-spacing: 0.04em;
 	font-weight: 600;
+}
+.pdpc-form-send a:hover{
+	background: #303E6B;
 }

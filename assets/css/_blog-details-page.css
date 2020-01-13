@@ -1,5 +1,5 @@
 
-.fs-inner{
+.fusce-section{
 	padding-top: 95px;
 }
 .fs-title h1{
@@ -91,6 +91,11 @@
 }
 .fsul-item ul li{
 	padding-left: 20px;
+	padding-bottom: 25px;
+	font-size: 15px;
+	color: #636363;
+	letter-spacing: 0.02em;
+	font-weight: normal;
 	position: relative;
 }
 .fsul-item ul li:before{
@@ -105,14 +110,7 @@
 	-ms-transform: translateX(-25%);
 	-webkit-transform: translateX(-25%);
 }
-.fsul-item ul li p{
-	margin: 0;
-	padding-bottom: 25px;
-	font-size: 15px;
-	color: #636363;
-	letter-spacing: 0.02em;
-	font-weight: normal;
-}
+
 .fs-img-item ul{
 	list-style: none;
 	padding: 0;
@@ -150,6 +148,12 @@
 	letter-spacing: 0.02em;
 	font-weight: normal;
 }
+
+
+.phasellus-section{
+	padding-bottom: 50px;
+}
+
 .ps-title h3{
 	margin: 0;
 	color: #303E6B;
@@ -214,7 +218,6 @@
 	padding-bottom: 68px;
 	padding-left: 58px;
 	padding-right: 58px;
-	margin-bottom: 50px;
 }
 .psb-title h3{
 	margin: 0;
