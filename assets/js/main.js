@@ -29,6 +29,11 @@ $(".fs-img-left").css({
   left: -containerwidth
 });
 
+$(".ifs-img-left").css({
+  width: imgwidth,
+  left: -containerwidth
+});
+
 
 
 // if (windowWidth <= 767) {
